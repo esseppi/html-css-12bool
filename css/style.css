@@ -3,16 +3,15 @@
   margin: 0;
   padding: 0;
 }
-.Up {
+
+[class*='col-'] {
   display: flex;
-  flex-direction: column;
-  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #006cfa;
 }
-.Down {
-  background-color: yellowgreen;
-}
-.row {
-  height: 30px;
-  background-color: red;
-  width: 30px;
+
+.row span {
+  color: white;
 }
