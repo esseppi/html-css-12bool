@@ -223,40 +223,78 @@ large devices (es desktop) lg */
 
 /* COL OFFSET */
 .col-off-1 {
-  margin-left: calc(((100% / 12) * 1) - var(--gap));
+  margin-left: calc((100% / 12) * 1);
 }
 .col-off-2 {
-  margin-left: calc(((100% / 12) * 2) - var(--gap));
+  margin-left: calc((100% / 12) * 2);
 }
 .col-off-3 {
-  margin-left: calc(((100% / 12) * 3) - var(--gap));
+  margin-left: calc((100% / 12) * 3);
 }
 .col-off-4 {
-  margin-left: calc(((100% / 12) * 4) - var(--gap));
+  margin-left: calc((100% / 12) * 4);
 }
 .col-off-5 {
-  margin-left: calc(((100% / 12) * 5) - var(--gap));
+  margin-left: calc((100% / 12) * 5);
 }
 .col-off-6 {
-  margin-left: calc(((100% / 12) * 6) - var(--gap));
+  margin-left: calc((100% / 12) * 6);
 }
 .col-off-7 {
-  margin-left: calc(((100% / 12) * 7) - var(--gap));
+  margin-left: calc((100% / 12) * 7);
 }
 .col-off-8 {
-  margin-left: calc(((100% / 12) * 8) - var(--gap));
+  margin-left: calc((100% / 12) * 8);
 }
 .col-off-9 {
-  margin-left: calc(((100% / 12) * 9) - var(--gap));
+  margin-left: calc((100% / 12) * 9);
 }
 .col-off-10 {
-  margin-left: calc(((100% / 12) * 10) - var(--gap));
+  margin-left: calc((100% / 12) * 10);
 }
 .col-off-11 {
-  margin-left: calc(((100% / 12) * 11) - var(--gap));
+  margin-left: calc((100% / 12) * 11);
 }
 .col-off-12 {
-  margin-left: calc(((100% / 12) * 12) - var(--gap));
+  margin-left: calc((100% / 12) * 12);
+}
+/* COL OFF RIGHT */
+
+.col-in-1 {
+  margin-right: calc((100% / 12) * 1);
+}
+.col-in-2 {
+  margin-right: calc((100% / 12) * 2);
+}
+.col-in-3 {
+  margin-right: calc((100% / 12) * 3);
+}
+.col-in-4 {
+  margin-right: calc((100% / 12) * 4);
+}
+.col-in-5 {
+  margin-right: calc((100% / 12) * 5);
+}
+.col-in-6 {
+  margin-right: calc((100% / 12) * 6);
+}
+.col-in-7 {
+  margin-right: calc((100% / 12) * 7);
+}
+.col-in-8 {
+  margin-right: calc((100% / 12) * 8);
+}
+.col-in-9 {
+  margin-right: calc((100% / 12) * 9);
+}
+.col-in-10 {
+  margin-right: calc((100% / 12) * 10);
+}
+.col-in-11 {
+  margin-right: calc((100% / 12) * 11);
+}
+.col-in-12 {
+  margin-right: calc((100% / 12) * 12);
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
@@ -276,6 +314,4 @@ large devices (es desktop) lg */
   .row {
     flex-direction: row-reverse;
   }
-}
-@media screen and (min-width: 768px) {
 }

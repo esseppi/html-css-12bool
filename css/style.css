@@ -10,7 +10,7 @@
   margin: 2rem 0;
 }
 [class*='col-'] {
-  min-height: 50px;
+  min-height: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,6 +24,6 @@
   padding: 10px;
 }
 .row span {
-  line-height: 50px;
+  line-height: 40px;
   color: white;
 }
