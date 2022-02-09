@@ -3,18 +3,22 @@
   margin: 0;
   padding: 0;
 }
+.esercizioXcasa > div {
+  margin: 2rem 0;
+}
 [class*='col-'] {
+  min-height: 35px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #006cfa;
 }
-.row:last-child > [class*='col-'] {
-  padding: 10px;
-}
 [class*='col-'] [class*='col-'] {
   height: 90%;
   background-color: #00e164;
+}
+.row:last-child > [class*='col-'] {
+  padding: 10px;
 }
 .row span {
   line-height: 50px;
