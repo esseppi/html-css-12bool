@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Up {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+.Down {
+  background-color: yellowgreen;
+}
+.row {
+  height: 30px;
+  background-color: red;
+  width: 30px;
+}
