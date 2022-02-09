@@ -3,11 +3,14 @@
   margin: 0;
   padding: 0;
 }
+.esercizioXcasa {
+  margin: -2rem 0;
+}
 .esercizioXcasa > div {
   margin: 2rem 0;
 }
 [class*='col-'] {
-  min-height: 35px;
+  min-height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
