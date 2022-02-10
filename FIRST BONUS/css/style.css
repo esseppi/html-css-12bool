@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.esercizioXcasa {
+  margin: -2rem 0;
+}
+.esercizioXcasa > div {
+  margin: 2rem 0;
+}
+[class*='col-'] {
+  min-height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #006cfa;
+}
+
+[class*='col-'] [class*='col-'] {
+  height: 90%;
+  background-color: #00e164;
+  animation-name: back;
+  animation-duration: 3s;
+  animation: back 10s steps(5, end) 3s infinite;
+}
+.row:last-child > [class*='col-'] {
+  padding: 10px;
+}
+.row span {
+  line-height: 40px;
+  color: white;
+  animation: down 5s linear 5s infinite;
+  animation: back 10s steps(5, end) 3s infinite;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  [class*='col-'] {
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  [class*='col-'] {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .row {
+    flex-direction: row-reverse;
+  }
+}
+.Down {
+  /* transform: scale(0.1); */
+  animation: down 5s linear 5s infinite;
+}
+@keyframes down {
+  0% {
+    transform: scale(0.1);
+  }
+  10% {
+    transform: scale(0.2);
+  }
+  30% {
+    transform: scale(0.3);
+  }
+  40% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  60% {
+    transform: scale(0.6);
+  }
+  70% {
+    transform: scale(0.7);
+  }
+  80% {
+    transform: scale(0.8);
+  }
+  90% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes back {
+  0% {
+    background-color: white;
+  }
+  10% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: green;
+  }
+  40% {
+    background-color: blue;
+  }
+  50% {
+    background-color: fuchsia;
+  }
+  60% {
+    background-color: black;
+  }
+  70% {
+    background-color: aqua;
+  }
+  80% {
+    background-color: darkolivegreen;
+  }
+  90% {
+    background-color: turquoise;
+  }
+  100% {
+    background-color: brown;
+  }
+}
