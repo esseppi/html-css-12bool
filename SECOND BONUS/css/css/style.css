@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.esercizioXcasa {
+  margin: -2rem 0;
+}
+.esercizioXcasa > div {
+  margin: 2rem 0;
+}
+[class*='col-'] {
+  min-height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #006cfa;
+}
+
+[class*='col-'] [class*='col-'] {
+  height: 90%;
+  background-color: #00e164;
+  animation-name: back;
+  animation-duration: 3s;
+  animation: back 10s steps(5, end) 3s infinite;
+}
+section:first-child [class*='col-'] {
+  padding: 10px;
+}
+.row span {
+  line-height: 40px;
+  color: white;
+}
+
+:root {
+  font-weight: bold;
+  --bigRow-height: 50px;
+}
+.big {
+  min-height: var(--bigRow-height);
+}
+.small {
+  height: calc(var(--bigRow-height) / 2.5);
+}
+.bad .row {
+  width: 100%;
+}
+.bad .row [class*='col-'] {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.bad .row > div:last-child .small {
+  color: white;
+  background-color: #006cfa;
+}
+
+.bad .row > div:first-child .big {
+  background-color: #006cfa;
+}
+
+.justify .row [class*='col-'] {
+  background-color: #00e164;
+}
+.around {
+  padding: 10px;
+  justify-content: space-around;
+  background-color: #006cfa;
+}
+.between {
+  padding: 10px;
+
+  justify-content: space-between;
+  background-color: #006cfa;
+}
